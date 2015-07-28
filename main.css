@@ -3,6 +3,14 @@ body {
   border: 0;
   background: url(bg.jpg) no-repeat;
   background-size: 100% auto;
+  background-attachment:fixed
+  font-family: 'open sans', helvetica, arial, 'Microsoft YaHei', 微软雅黑, STXihei, 华文细黑, sans-serif;
+  font-kerning: auto;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  -variant-ligatures: normal;
+  font-weight: normal;
 }
 
 .header{
@@ -14,17 +22,10 @@ body {
 }
 
 .header h1{
-  font-size: 40px;
   color:#FFFFFF;
   text-align: center;
   margin: -40px;
-  font-family: 'open sans', helvetica, arial, 'Microsoft YaHei', 微软雅黑, STXihei, 华文细黑, sans-serif;
-  font-kerning: auto;
-  font-stretch: normal;
-  font-style: normal;
-  font-variant: normal;
-  -variant-ligatures: normal;
-  font-weight: normal;
+  font-size: 40px;
 }
 
 .avatar {
@@ -37,4 +38,48 @@ body {
   top: -67px;
   margin:0 auto;
   border: 3px solid #FFFFFF;
+}
+
+#menu {
+  width: 1100px;
+  height: 50px;
+  background-color: rgb(51, 51, 51);
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+#menu>li {
+  list-style: none;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 30px;
+}
+
+#menu>li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#menu>li a.current {
+  text-decoration: underline;
+}
+
+#menu>li a:hover {
+  text-decoration: underline;
+}
+
+.middle_white_board{
+  width:1100px;
+  height:300px;
+  margin: 0 auto 0 auto;
+  background-color: #FFFFFF
+}
+
+.work_center{
+  padding-bottom: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 70px;
 }
