@@ -15,10 +15,16 @@ body {
 
 .header h1{
   font-size: 40px;
-  color:#000000;
+  color:#FFFFFF;
   text-align: center;
   margin: -40px;
-  font-family: 'open sans', helvetica, arial, sans-serif;
+  font-family: 'open sans', helvetica, arial, 'Microsoft YaHei', 微软雅黑, STXihei, 华文细黑, sans-serif;
+  font-kerning: auto;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  -variant-ligatures: normal;
+  font-weight: normal;
 }
 
 .avatar {
