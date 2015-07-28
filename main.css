@@ -2,8 +2,8 @@ body {
   margin: 0;
   border: 0;
   background: url(bg.jpg) no-repeat;
-  background-size: 100% auto;
-  background-attachment:fixed
+  background-size: 100% auto fixed;
+  background-repeat: repeat-y;
   font-family: 'open sans', helvetica, arial, 'Microsoft YaHei', 微软雅黑, STXihei, 华文细黑, sans-serif;
   font-kerning: auto;
   font-stretch: normal;
@@ -24,7 +24,7 @@ body {
 .header h1{
   color:#FFFFFF;
   text-align: center;
-  margin: -40px;
+  margin: -50px;
   font-size: 40px;
 }
 
@@ -70,16 +70,77 @@ body {
   text-decoration: underline;
 }
 
-.middle_white_board{
-  width:1100px;
-  height:300px;
-  margin: 0 auto 0 auto;
-  background-color: #FFFFFF
-}
-
-.work_center{
-  padding-bottom: 50px;
+.middle_white_board {
+  background-color: white;
+  margin-bottom: 0px;
+  margin-left: 119.5px;
+  margin-right: 119.5px;
+  margin-top: 0px;
+  padding-bottom: 70px;
   padding-left: 70px;
   padding-right: 70px;
   padding-top: 70px;
+  position: relative;
+  text-align: center;
+  height: 373px;
+  width: 960px;
+}
+
+.work_center{
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+.content{
+  color: rgb(51, 51, 51);
+  display: block;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  height: 28px;
+  letter-spacing: 3px;
+  line-height: 28px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  text-align: center;
+  word-wrap: break-word;
+  zoom: 1;
+}
+
+.s-line{
+  background-attachment: scroll;
+  background-color: rgb(51, 51, 51);
+  height: 3px;
+  margin:16px auto 20px auto;
+  width: 80px;
+}
+
+.p-center {
+  color: rgb(98, 104, 111);
+  display: block;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  height: 44px;
+  line-height: 22.3999996185303px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  text-align: center;
+  width: 940px;
+  zoom: 1;
+}
+
+.content2{
+  word-wrap: break-word;
+}
+
+
+.space{
+  display: block;
+  height: 40px;
+  width: 960px;
 }
