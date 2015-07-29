@@ -1,8 +1,8 @@
 body {
   margin: 0;
   border: 0;
-  background: url(bg.jpg) no-repeat;
-  background-size: 100% auto fixed;
+  background: url(bg.jpg) no-repeat fixed;
+  background-size: cover;
   background-repeat: repeat-y;
   font-family: 'open sans', helvetica, arial, 'Microsoft YaHei', 微软雅黑, STXihei, 华文细黑, sans-serif;
   font-kerning: auto;
@@ -68,6 +68,12 @@ body {
 
 #menu>li a:hover {
   text-decoration: underline;
+}
+
+hr{
+  width: 1100px;
+  margin: 0 auto;
+  color: #B9B4B4;
 }
 
 .middle_white_board {
@@ -214,4 +220,79 @@ body {
   width: 290px;
   word-wrap: break-word;
   zoom: 1;
+}
+
+.middle_white_board2 {
+  background-color: white;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 70px;
+  text-align: center;
+  height: 850px;
+  width: 960px;
+}
+
+.repeatex{
+  width: 960px;
+  height: 200px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.expicbox{
+  width: 280px;
+  height: 200px;
+  text-align: right;
+  display: inline-block;
+  float: left;
+}
+
+
+.expicbox2{
+  width: 265px;
+  height: 190px;
+  padding: 10px 15px 0 0;
+  text-align: right;
+  display: inline-block;
+  float: left;
+}
+
+.exwordsbox{
+  width: 625px;
+  height: 200px;
+  padding-left: 50px;
+  text-align: left;
+  display: inline-block;
+}
+
+.company{
+  color: rgb(51, 51, 51);
+  margin-bottom: 8px;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  float: left;
+  width: 620px;
+}
+.timethrough{
+  color: rgb(98, 104, 111);
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  float: left;
+  width: 620px;
+}
+
+.exwordsinfo{
+  color: rgb(98, 104, 111);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  width: 560px;
 }
