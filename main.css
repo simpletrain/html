@@ -330,3 +330,30 @@ hr{
   width: 220px;
   zoom: 1;
 }
+
+.touchbox{
+  list-style-position: outside;
+  text-align: center;
+  width: 960px;
+  zoom: 1;
+}
+
+.onetouch{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  float: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 160px;
+}
+
+.touchway{
+  margin-top: 25px;
+  color: rgb(98, 104, 111);
+  height: 22px;
+  font-size: 16px;
+  zoom: 1;
+}
